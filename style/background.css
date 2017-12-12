@@ -1,0 +1,21 @@
+/*
+ * @Author:ZHISHAN IoT
+ * @Dessciption:background style
+ */
+
+#background
+{
+    background-color: lightgrey;
+    background-image: url("/image/0001.png");   /* specify the source background image */
+    background-repeat: no-repeat;
+
+    /* fullscreen config */
+    background-attachment: fixed;
+    /*position: fixed;*/
+	width:  100%;
+	height: 100%;
+	background-size: cover;
+	z-index: -9999;
+}
+
+/* --- END OF FILE --- */
