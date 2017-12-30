@@ -1,7 +1,7 @@
 @font-face {
 	font-family: "shareicon";
-	src: url('font/font-share.eot?t=1504964652273');
-	src: url('font/font-share.eot?t=1504964652273#iefix') format('embedded-opentype'), url('font/font-share.ttf?t=1504964652273') format('truetype'), url('font/font-share.svg?t=1504964652273#shareicon') format('svg');
+	src: url('/style/font/font-share.eot?t=1504964652273');
+	src: url('/style/font/font-share.eot?t=1504964652273#iefix') format('embedded-opentype'), url('/style/font/font-share.ttf?t=1504964652273') format('truetype'), url('/style/font/font-share.svg?t=1504964652273#shareicon') format('svg');
 }
 
 /* SocialSharing */
@@ -27,8 +27,10 @@
     color: rgba(0,0,0,0.50);
     background: #f5f5f5;
 	margin-right: -4px;
-    margin-left: 1em;
+	margin-top:8px;
+	margin-left: 10px;
 }
+
 .btn-share i{
   font-family: "shareicon" !important;
   font-size: 36px;

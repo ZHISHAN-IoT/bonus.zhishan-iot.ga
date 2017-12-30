@@ -1,0 +1,87 @@
+.main-container {
+	color: #ffffff;
+	text-align: center;
+	width:100%;
+	font-family:Ubuntu Regular;
+}
+
+.col-center-block {  
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.btn-md {
+	color: #ffffff;
+	border: 1px solid rgba(255,255,255,0.6);
+	text-decoration: none;
+	min-width: 244px;
+	height: 40px;
+	margin-top: 10px;
+	min-height: 30px;
+	min-width: 180px;
+	display: inline-table;
+	text-align: center;
+	transition: all ease-in 0.2s;
+	
+	font-size: 14px;
+	line-height: 20px;
+	
+	box-sizing: border-box;
+
+	vertical-align: middle;
+	text-transform: uppercase;
+	padding: 8px 10px 1px 10px;
+	-moz-box-sizing: border-box;
+	opacity: 1;
+}
+
+.btn-md:active {
+	color:black;
+	background-color:white;
+	text-decoration:none;
+	border: 1px solid rgba(0,0,0,0.6);
+}
+
+.btn-md:link {
+	color:white;
+	text-decoration:none;
+	border: 1px solid rgba(255,255,255,0.6);
+	color: #ffffff;
+}
+
+.btn-md:hover {
+	color:black;
+	background-color:white;
+	text-decoration:none;
+	border: 1px solid rgba(0,0,0,0.6);
+}
+
+.btn-md:visited {
+	color:white;
+	text-decoration:none;
+	border: 1px solid rgba(255,255,255,0.6);
+}
+
+.footer {
+	color:white;
+	text-decoration:none;
+}
+
+.brand-name {
+	width:100%;
+	font-family:Ubuntu Regular;
+	font-size: 60px;
+	line-height: 60px;
+	text-transform: uppercase;
+	text-align: center;
+	/* margin: auto; */
+	
+	font-weight: 900;
+	
+	box-sizing: border-box;
+	word-wrap: break-word;
+}
+
+
+

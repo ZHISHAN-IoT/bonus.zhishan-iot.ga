@@ -3,7 +3,7 @@
  * @Dessciption:background style
  */
 
-#background
+.background
 {
     background-color: lightgrey;
     background-image: url("/image/0001.jpg");   /* specify the source background image */

@@ -1,0 +1,25 @@
+/*
+  @Author:ZHISHAN IoT
+  @Dessciption:font style sheet
+ */
+
+
+*
+{ 
+	font-family: consola
+}
+
+/* base-font:consola */
+@font-face
+{
+	font-family: consola;
+	font-style: normal;
+	src: url('/style/font/consola.ttf');
+}
+
+@font-face {
+	font-family: "Ubuntu Regular";
+	font-style: normal;
+	src: url('/style/font/ubuntu-r.ttf')
+}
+
