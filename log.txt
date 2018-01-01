@@ -1,3 +1,6 @@
 #2017-12-30-01 
-> use Bootstrap to rebulid all pages
+> use Bootstrap to rebuild all pages
+
+#2018-01-01-01
+> change background image and enable ZHI COMMAND option
 
