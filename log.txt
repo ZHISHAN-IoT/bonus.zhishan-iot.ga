@@ -4,3 +4,6 @@
 #2018-01-01-01
 > change background image and enable ZHI COMMAND option
 
+#2018-01-01-02
+> fix bug about ZHI COMMAND
+
