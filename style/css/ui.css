@@ -83,7 +83,7 @@
 	word-wrap: break-word;
 }
 
-textarea{  
+.zhi-command-text {  
 	border:0;
 	background-color:transparent;  
 	resize:none;
