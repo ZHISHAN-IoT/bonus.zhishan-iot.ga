@@ -17,6 +17,17 @@
 		<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
 		<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		<script>
+			function copy() {
+				var tar = document.getElementById("zhi-command");
+				tar.select();
+				document.execCommand('Copy');
+				//window.clipboardData.setData("Text",val);
+				alert("Copy successfully!");
+			}
+		</script>
+		
 	</head>
 	
 	<body style="background:rgba(2,2,2,0.5);height:auto;width:auto;">
@@ -86,22 +97,33 @@
 	
 		<div class="container main-container" style="padding-top: 15rem;width:auto;">
 			<div class="row">
-				<div class="col-md-2" style="text-align:center;"></div>
+				<div class="col-md-2" style="text-align:center;">&nbsp;</div>
 				<div class="col-md-8" style="text-align:center;">
-						<h3 style="font-family:Ubuntu Regular">Copy the highlighted text command,then open your Alipay APP</h3>
-						</br>
-						<div style="background-color: rgba(0,0,0,0.8)"></br><h1># 支付宝iotA0g43pw #</h1></br></div>
+						<h3 style="font-family:Ubuntu Regular">Copy the highlighted text command directly or press <b><i>Copy</i></b> &nbsp;button,then open your Alipay APP</h3>
+						<br>
+						<div style="background-color: rgba(0,0,0,0.8)">
+							<br>
+							<h1><textarea id="zhi-command" wrap="hard">#支付宝#
+iotA0g43pw</textarea></h1>
+							<br>
+						</div>
 				</div>
-				<div class="col-md-2" style="text-align:center;"></div>
+				<div class="col-md-2" style="text-align:center;">&nbsp;</div>
 			</div>
 		</div>
 		
-		<div class="container"></br></br></br></br>
-			<div class="row"><!--  full has-fold -->
+		<div class="container"><br><br><br><br>
+			<div class="row">
+				<div class="col-md-12" style="text-align:center"><a id="btn-copy" class="btn-md">Copy</a></div>
+					<script>
+						$('#btn-copy').click(function () {
+							copy();
+						});
+					</script>
 				<div class="col-md-12" style="text-align:center"><a href="/index.html" class="btn-md">Back</a></div>
 			</div>
 		</div>
-		</br></br></br></br></br></br></br></br></br>
+		<br><br><br><br><br><br><br><br><br>
 			
 		<div class="container">
 			<footer class="footer">
@@ -111,8 +133,8 @@
 						<div class="col-md-9" style="text-align:left">
 							<p>#Tech-support:<a href="mailto:webmaster@zhishan-iot.ga" style="color:white;">
 								<i>webmaster@zhishan-iot.ga</i></a>
-							 </br>#Updt-date: 2017-12-30
-							 </br>#Powered by:ZHISHAN-IoT</p>
+							 <br>#Updt-date: 2017-12-30
+							 <br>#Powered by:ZHISHAN-IoT</p>
 						</div>
 						<div class="btn-share col-md-3" style="text-align:left;margin:0px 0px auto auto">
 							<a class="weixin" title="分享到微信" href="#" style="margin-left: 0px;"><i class="icon-wechat"></i></a>
@@ -134,11 +156,11 @@
 						</div>
 					</div>	
 				</div>		
-				</br>
+				<br>
 				
 			</footer>
 		</div>
 	
 	</body>
-	
+
 </html>

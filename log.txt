@@ -7,3 +7,5 @@
 #2018-01-01-02
 > fix bug about ZHI COMMAND
 
+#2018-01-02-01
+> add copy function in ZHI COMMAND page
