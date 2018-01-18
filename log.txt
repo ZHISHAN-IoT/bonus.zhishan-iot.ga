@@ -9,3 +9,8 @@
 
 #2018-01-02-01
 > add copy function in ZHI COMMAND page
+
+#2018-01-18-01
+> set background image as random getting
+> add [ Auto Operate ] opetion,it can call Alipay APP automatically in mobile device
+

@@ -6,7 +6,9 @@
 .background
 {
     background-color: lightgrey;
-    background-image: url("/image/0002.jpg");   /* specify the source background image */
+    background-image: url("https://picsum.photos/1960/1280/?random");
+    /* url ("/image/0002.jpg"); */   
+    /* specify the source background image */
     background-repeat: no-repeat;
 
     /* fullscreen config */
