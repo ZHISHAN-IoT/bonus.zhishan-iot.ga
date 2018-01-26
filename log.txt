@@ -12,5 +12,8 @@
 
 #2018-01-18-01
 > set background image as random getting
-> add [ Auto Operate ] opetion,it can call Alipay APP automatically in mobile device
+> add [ Auto Operate ] option,it can call Alipay APP automatically in mobile device
 
+#2018-01-26-01
+> update date
+> rename [ Auto Operate ] option as [ One Key ]
